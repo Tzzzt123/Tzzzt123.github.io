@@ -49,6 +49,9 @@ p {
 .article a:hover, .article a:active {
     color: inherit;
 }
+.content {
+  margin: auto;
+}
 /* CSS for desktop devices */
 @media only screen and (min-width: 768px) {
     .container {
