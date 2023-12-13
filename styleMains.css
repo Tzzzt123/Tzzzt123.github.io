@@ -28,10 +28,11 @@ p {
 	margin-top: 0;
 	z-index: 9999;
 	display: inline-block;
+	background-color: rgba(0, 60, 0, 0.7);
+	width: 100%;
 }
 .links{
 	text-align: center;
-	width: 800px;
 	color: blue;
 }
 .article-title {
@@ -62,14 +63,16 @@ p {
     color: inherit;
 }
 .content {
-	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 /* CSS for desktop devices */
 @media only screen and (min-width: 768px) {
     .container {
         display: flex;
         flex-wrap: wrap;
-		margin-top: 90px;
+		margin-top: 100px;
     }
 
     .article {
@@ -86,7 +89,7 @@ p {
 @media only screen and (max-width: 767px) {
     .container {
         display: block;
-		margin-top: 90px
+		margin-top: 100px
     }
 
     .article {
