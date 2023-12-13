@@ -41,6 +41,9 @@ p {
 	text-decoration: none;
 	color: inherit;
 }
+.links a:active{
+	color: red;
+}
 .article-title {
     font-size: 24px;
     color: yellow;
