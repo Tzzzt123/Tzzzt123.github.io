@@ -1,9 +1,11 @@
 body{
 	background-color: #202124;
 }
+h1{
+	position: center;
+}
 p {
 	position: center;
 	color: white;
 	width: 1000px;
-	border: 1px solid black;
 }
