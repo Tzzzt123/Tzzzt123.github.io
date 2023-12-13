@@ -22,3 +22,44 @@ p {
 	width: 800px;
 	color: blue;
 }
+.article-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.article-summary {
+    font-size: 16px;
+    color: #666;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+}
+.article-date {
+    font-size: 12px;
+    color: #ccc;
+    font-style: italic;
+}
+/* CSS for desktop devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .article {
+        width: 33.33%;
+        padding: 10px;
+    }
+}
+/* CSS for mobile devices */
+@media only screen and (max-width: 767px) {
+    .container {
+        display: block;
+    }
+
+    .article {
+        padding: 10px;
+    }
+}
