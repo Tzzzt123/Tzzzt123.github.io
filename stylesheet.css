@@ -2,12 +2,12 @@ body{
 	background-color: #202124;
 }
 h1{
-	position: center;
+	text-align: center;
 	color: white;
 	width: 800px;
 }
 p {
-	position: center;
+	text-align: center;
 	color: white;
 	width: 1000px;
 }
