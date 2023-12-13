@@ -1,0 +1,18 @@
+body{
+	background-color: #202124;
+}
+h1{
+	text-align: center;
+	color: white;
+	width: 800px;
+}
+p {
+	text-align: center;
+	color: white;
+	width: 1000px;
+}
+.links{
+	text-align: center;
+	width: 800px;
+	color: blue;
+}
