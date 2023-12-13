@@ -25,9 +25,9 @@ p {
 	text-align: center;
 	align-items: center;
 	padding-top: 0;
-	margin: auto;
 	margin-top: 0;
 	z-index: 9999;
+	display: inline-block;
 }
 .links{
 	text-align: center;
