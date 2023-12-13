@@ -24,12 +24,12 @@ p {
 }
 .article-title {
     font-size: 24px;
-    color: #333;
+    color: yellow;
 }
 
 .article-summary {
     font-size: 16px;
-    color: #666;
+    color: white;
 }
 
 .article-image {
@@ -38,7 +38,7 @@ p {
 }
 .article-date {
     font-size: 12px;
-    color: #ccc;
+    color: gray;
     font-style: italic;
 }
 .article a {
