@@ -3,6 +3,8 @@ body{
 }
 h1{
 	position: center;
+	color: white;
+	width: 800px;
 }
 p {
 	position: center;
