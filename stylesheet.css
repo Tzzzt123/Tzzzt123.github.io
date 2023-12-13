@@ -1,5 +1,9 @@
+body{
+	background-color: #202124;
+}
 p {
-  color: red;
-  width: 500px;
-  border: 1px solid black;
+	position: center;
+	color: white;
+	width: 1000px;
+	border: 1px solid black;
 }
