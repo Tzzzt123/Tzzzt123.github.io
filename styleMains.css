@@ -2,6 +2,7 @@ body{
 	background-color: #202124;
 	justify-content: center;
 	text-align: center;
+	align-items: center;
 }
 h1{
 	text-align: center;
@@ -14,6 +15,10 @@ h2{
 p {
 	text-align: center;
 	color: white;
+}
+.titel{
+	position: fixed;
+	text-align: center;
 }
 .links{
 	text-align: center;
