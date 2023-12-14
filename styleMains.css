@@ -98,9 +98,14 @@ p {
 @media only screen and (max-width: 767px) {
     .container {
         display: block;
-		margin-top: 105px
+		margin-top: 110px
     }
-
+	h1 {
+		font-size: 1.75em;
+	}
+	.links{
+		font-size: 0.9em;
+	}
     .article {
         padding: 30px 0;
 		text-align: center;
