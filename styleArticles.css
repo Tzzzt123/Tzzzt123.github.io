@@ -68,6 +68,10 @@ p {
     color: gray;
     font-style: italic;
 }
+.article-formula{
+	color: white;
+	text-align: center;
+}
 .article a {
     text-decoration: none;
     color: inherit;
