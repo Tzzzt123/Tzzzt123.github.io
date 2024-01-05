@@ -57,6 +57,7 @@ p {
 .article-content{
 	font-size: 18px;
 	color: white;
+	text-align: justify;
 }
 .article-image {
     width: 100%;
