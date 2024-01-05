@@ -1,0 +1,117 @@
+body{
+	background-color: #202124;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	font-family: Verdana;
+}
+h1{
+	text-align: center;
+	color: white;
+}
+h2{
+	text-align: center;
+	color: white;
+}
+p {
+	text-align: center;
+	color: white;
+}
+.titel{
+	text-align: center;
+}
+.tops{
+	position: fixed;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	padding-top: 0;
+	top: 0;
+	margin-top: 0;
+	z-index: 9999;
+	display: inline-block;
+	background-color: rgba(0, 60, 0, 0.7);
+	width: 100%;
+}
+.links{
+	text-align: center;
+	color: #ADD8E6;
+}
+.links a{
+	text-decoration: none;
+	color: inherit;
+}
+.links a:active{
+	color: red;
+}
+.article-title {
+    font-size: 24px;
+    color: yellow;
+}
+
+.article-summary {
+    font-size: 16px;
+    color: white;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+}
+.article-date {
+    font-size: 12px;
+    color: gray;
+    font-style: italic;
+}
+.article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article a:hover, .article a:active {
+    color: inherit;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* CSS for desktop devices */
+@media only screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+		margin-top: 85px;
+    }
+
+    .article {
+        width: 33%;
+		padding: 30px 0;
+		text-align: center;
+		justify-content: center;
+    }
+	.article-image {
+		max-width: 90%;
+	}
+}
+/* CSS for mobile devices */
+@media only screen and (max-width: 767px) {
+    .container {
+        display: block;
+		margin-top: 110px
+    }
+	h1 {
+		font-size: 1.75em;
+	}
+	.links{
+		font-size: 0.9em;
+	}
+    .article {
+        padding: 30px 0;
+		text-align: center;
+		justify-content: center;
+    }
+	.article-image {
+		max-width: 90%;
+	}
+}
