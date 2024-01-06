@@ -62,6 +62,7 @@ p {
 .article-image {
     width: 100%;
     height: auto;
+	max-height: 60%;
 }
 .article-date {
     font-size: 12px;
@@ -76,7 +77,11 @@ p {
     text-decoration: none;
     color: inherit;
 }
-
+.image-subtitle{
+	font-size: 14px;
+	color: gray;
+	font-style: italic;
+}
 .content {
 	display: flex;
 	flex-direction: column;
@@ -98,7 +103,8 @@ p {
 		max-width: 80%;
     }
 	.article-image {
-		max-width: 90%;
+		max-width: 60%;
+		max-height: 60%;
 	}
 }
 /* CSS for mobile devices */
