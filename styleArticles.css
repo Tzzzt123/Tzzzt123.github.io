@@ -104,7 +104,9 @@ p {
     }
 	.article-image {
 		max-width: 60%;
-		max-height: 60%;
+		max-height: 40%;
+		height: auto;
+		width: auto;
 	}
 }
 /* CSS for mobile devices */
