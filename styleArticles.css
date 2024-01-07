@@ -130,5 +130,8 @@ p {
     }
 	.article-image {
 		max-width: 90%;
+		max-height: 60%;
+		height: auto;
+		width: auto;
 	}
 }
