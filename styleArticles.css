@@ -243,6 +243,7 @@ table, th, td, caption{
 		text-align: left;
 		padding: 0.1em;
 		max-width: 100%;
+		width: 100%;
 		overflow-x: auto;
 	}
 	table{
