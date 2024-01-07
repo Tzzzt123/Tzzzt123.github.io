@@ -257,6 +257,7 @@ table, th, td, caption{
 	}
 	caption{
 		font-size: 16px;
+		text-align: left;
 	}
 	th{
 		font-size: 14px;
