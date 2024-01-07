@@ -234,7 +234,14 @@ table, th, td, caption{
 		padding: 0.1em;
 		width: 100vw;
 	}
+	table{
+		max-width: 98%;
+	}
 	table, th, td, caption{
 		padding: 0.1em;
+	}
+	td, th{
+		display: block;
+		display: table-cell;
 	}
 }
