@@ -144,15 +144,12 @@ table{
 }
 caption{
 	background-color: #3333FF;
-	font-size: 18px;
 }
 th{
 	background-color: #111199;
-	font-size: 16px;
 }
 td{
 	background-color: #2222DD;
-	font-size: 14px;
 }
 table, th, td, caption{
 	border: 2.5px solid #000066;
@@ -202,6 +199,15 @@ table, th, td, caption{
 	th, td{
 		display: table-cell;
 	}
+	caption{
+		font-size: 18px;
+	}
+	th{
+		font-size: 16px;
+	}
+	td{
+		font-size: 14px;
+	}
 }
 /* CSS for mobile devices */
 @media only screen and (max-width: 767px) {
@@ -245,5 +251,14 @@ table, th, td, caption{
 	}
 	td, th{
 		display: block;
+	}
+	caption{
+		font-size: 15px;
+	}
+	th{
+		font-size: 13px;
+	}
+	td{
+		font-size: 11px;
 	}
 }
