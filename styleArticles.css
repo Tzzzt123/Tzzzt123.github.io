@@ -164,7 +164,8 @@ table, th, td, caption{
 	margin-top: 30px;
 	text-align: center;
 	width: auto;
-	display: inline-block;
+	display: block;
+	overflow-x: auto;
 }
 /* CSS for desktop devices */
 @media only screen and (min-width: 768px) {
@@ -248,12 +249,10 @@ table, th, td, caption{
 		max-width: 100%;
 		overflow-x: scroll;
 		width: 100%;
+		display: table;
 	}
 	table, th, td, caption{
 		padding: 0.1em;
-	}
-	td, th{
-		/*display: inline-block;*/
 	}
 	caption{
 		font-size: 16px;
