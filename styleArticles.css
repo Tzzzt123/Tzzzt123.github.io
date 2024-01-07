@@ -241,16 +241,16 @@ table, th, td, caption{
 	.around-table{
 		text-align: left;
 		padding: 0.1em;
-		max-width: 98%;
+		max-width: 100%;
 	}
 	table{
-		max-width: 98%;
+		max-width: 100%;
 	}
 	table, th, td, caption{
 		padding: 0.1em;
 	}
 	td, th{
-		display: block;
+		display: inline-block;
 	}
 	caption{
 		font-size: 15px;
