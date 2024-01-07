@@ -253,7 +253,7 @@ table, th, td, caption{
 		padding: 0.1em;
 	}
 	td, th{
-		display: inline-block;
+		/*display: inline-block;*/
 	}
 	caption{
 		font-size: 16px;
