@@ -157,7 +157,6 @@ td{
 table, th, td, caption{
 	border: 2.5px solid #000066;
 	border-collapse: collapse;
-	padding: 0.75em;
 }
 .around-table{
 	background-color: #000066;
@@ -193,6 +192,13 @@ table, th, td, caption{
 		height: auto;
 		width: auto;
 	}
+	.around-table{
+		text-align: center;
+		padding: 0.75em;
+	}
+	table, th, td, caption{
+		padding: 0.75em;
+	}
 }
 /* CSS for mobile devices */
 @media only screen and (max-width: 767px) {
@@ -223,5 +229,9 @@ table, th, td, caption{
 	}
 	.around-table{
 		text-align: left;
+		padding: 0.1em;
+	}
+	table, th, td, caption{
+		padding: 0.1em;
 	}
 }
