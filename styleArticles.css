@@ -252,7 +252,7 @@ table, th, td, caption{
 		display: table;
 	}
 	table, th, td, caption{
-		padding: 0.1em;
+		padding: 0.15em;
 	}
 	caption{
 		font-size: 16px;
