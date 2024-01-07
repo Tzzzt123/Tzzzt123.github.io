@@ -230,6 +230,7 @@ table, th, td, caption{
 	.around-table{
 		text-align: left;
 		padding: 0.1em;
+		width: 100vw;
 	}
 	table, th, td, caption{
 		padding: 0.1em;
