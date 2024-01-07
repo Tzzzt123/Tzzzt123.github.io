@@ -183,7 +183,4 @@ code::before {
 		height: auto;
 		width: auto;
 	}
-	.code{
-		display: none;
-	}
 }
