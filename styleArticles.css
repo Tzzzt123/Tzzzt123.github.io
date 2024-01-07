@@ -167,8 +167,6 @@ table, th, td, caption{
 	margin-right: auto;
 	margin-top: 30px;
 	text-align: center;
-	justify-content: center;
-	align-items: center;
 	width: auto;
 	display: inline-block;
 }
@@ -222,5 +220,8 @@ table, th, td, caption{
 		max-height: 60%;
 		height: auto;
 		width: auto;
+	}
+	.around-table{
+		text-align: left;
 	}
 }
