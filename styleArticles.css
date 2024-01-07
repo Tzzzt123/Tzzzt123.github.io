@@ -136,12 +136,38 @@ code::before {
 	align-items: center;
 	justify-content: center;
 }
+table{
+	margin-top: 30px;
+	text-align: center;
+	color: #d3d3d3;
+	margin-left: auto;
+	margin-right: auto;
+}
+caption{
+	background-color: #3333FF;
+	font-size: 18px;
+}
+th{
+	background-color: #111199;
+	font-size: 16px;
+}
+td{
+	background-color: #2222DD;
+	font-size: 14px;
+}
+table, th, td, caption{
+	border: 2.5px solid #000066;
+	border-collapse: collapse;
+	padding: 1em;
+}
 /* CSS for desktop devices */
 @media only screen and (min-width: 768px) {
     .container {
         display: flex;
 		margin-top: 85px;
 		justify-content: center;
+		text-align: center;
+		align-items: center;
     }
 
     .article {
@@ -164,6 +190,8 @@ code::before {
         display: block;
 		margin-top: 100px;
 		justify-content: center;
+		text-align: center;
+		align-items: center;
     }
 	h1 {
 		font-size: 1.75em;
