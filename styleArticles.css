@@ -199,6 +199,9 @@ table, th, td, caption{
 	table, th, td, caption{
 		padding: 0.75em;
 	}
+	th, td{
+		display: table-cell;
+	}
 }
 /* CSS for mobile devices */
 @media only screen and (max-width: 767px) {
@@ -242,6 +245,5 @@ table, th, td, caption{
 	}
 	td, th{
 		display: block;
-		display: table-cell;
 	}
 }
