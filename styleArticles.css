@@ -206,6 +206,15 @@ table, th, td, caption{
 	.around-table{
 		text-align: center;
 		padding: 0.75em;
+		max-width: 100%;
+		width: 100%;
+		overflow-x: auto;
+	}
+	table{
+		max-width: 100%;
+		overflow-x: scroll;
+		width: 100%;
+		display: table;
 	}
 	table, th, td{
 		padding: 0.75em;
