@@ -48,7 +48,9 @@ p {
     font-size: 24px;
     color: yellow;
 }
-
+.ap{
+	color: red;
+}
 .article-summary {
     font-size: 16px;
     color: white;
