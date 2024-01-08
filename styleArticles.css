@@ -41,6 +41,8 @@ p {
 	text-align: center;
 	color: #ADD8E6;
 	font-size: 1em;
+	font-weight: bold;
+	margin-bottom: 1em;
 	padding: 0;
 }
 .links a{
