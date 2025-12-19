@@ -157,14 +157,14 @@ table{
 	margin-left: 0;
 }
 caption{
-	background-color: #3333FF;
+	background-color: #33FF33;
 	text-align: left;
 }
 th{
-	background-color: #111199;
+	background-color: #119911;
 }
 td{
-	background-color: #2222DD;
+	background-color: #22DD22;
 }
 table, th, td, caption{
 	border: 2.5px solid #000066;
