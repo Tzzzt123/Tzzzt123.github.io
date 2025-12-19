@@ -159,12 +159,14 @@ table{
 caption{
 	background-color: #33FF33;
 	text-align: left;
+	color: #444444;
 }
 th{
 	background-color: #119911;
 }
 td{
 	background-color: #22DD22;
+	color: #eeeeee;
 }
 table, th, td, caption{
 	border: 2.5px solid #000066;
