@@ -96,7 +96,7 @@ p {
 .article-code{
 	background-color: #f8f8f8;
 	border: 1px solid blue;
-	color: red;
+	color: green;
 	text-align: left;
 	font-size: 16px;
 	font-family: 'Courier New', monospace;
@@ -136,7 +136,7 @@ code::before {
     width: 2em;
     padding-right: 1em;
     text-align: right;
-    color: green;
+    color: lime;
 }
 .article a {
     text-decoration: none;
